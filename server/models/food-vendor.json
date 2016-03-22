@@ -1,0 +1,35 @@
+{
+  "name": "FoodVendor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "location_type": {
+      "type": "string",
+      "required": true
+    },
+    "cuisine": {
+      "type": "string"
+    },
+    "geolocation": {
+      "type": "geopoint"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

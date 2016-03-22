@@ -1,0 +1,28 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cuisineDS": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "test",
+    "name": "cuisineDS",
+    "connector": "mongodb",
+    "user": "therealholm"
+  },
+  "foodVendorDS": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "test",
+    "name": "foodVendorDS",
+    "connector": "mongodb"
+  },
+  "locationTypeDS": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "test",
+    "name": "locationTypeDS",
+    "connector": "mongodb"
+  }
+}
